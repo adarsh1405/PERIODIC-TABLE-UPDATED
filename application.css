@@ -1,0 +1,13 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button {
+	-fx-font-weight: bold;
+}
+#msg {
+	-fx-font-weight: bold;
+}
+.root {
+	-fx-background-color: #F5DEB3;
+}
+.Lebel {
+	-fx-font-weight: bold;
+}
