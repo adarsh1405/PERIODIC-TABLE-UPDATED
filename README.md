@@ -5,4 +5,4 @@ This project is based upon a dynamic periodic table in which we can find the ele
 
 
 
-![](output1.png)
+![](https://github.com/adarsh1405/PERIODIC-TABLE-UPDATED/raw/master/output1.PNG)
