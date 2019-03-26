@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <HBox alignment="CENTER" prefHeight="85.0" prefWidth="1000.0">
+         <children>
+            <AnchorPane prefHeight="70.0" prefWidth="1500.0">
+               <children>
+                  <Label layoutX="22.0" layoutY="62.0" text="IA" />
+                  <Label layoutX="59.0" layoutY="63.0" text="IIA" />
+                  <Label layoutX="97.0" layoutY="64.0" text="IIIB" />
+                  <Label layoutX="136.0" layoutY="65.0" text="IVB" />
+                  <Label layoutX="173.0" layoutY="65.0" text="VB" />
+                  <Label layoutX="210.0" layoutY="65.0" text="VIB" />
+                  <Label layoutX="249.0" layoutY="65.0" text="VIIB" />
+                  <Label layoutX="327.0" layoutY="64.0" text="VIII" />
+                  <Label layoutX="336.0" layoutY="65.0" />
+                  <Label layoutX="414.0" layoutY="64.0" text="IB" />
+                  <Label layoutX="448.0" layoutY="65.0" text="IIB" />
+                  <Label layoutX="485.0" layoutY="65.0" text="IIIA" />
+                  <Label layoutX="525.0" layoutY="65.0" text="IVA" />
+                  <Label layoutX="568.0" layoutY="65.0" text="VA" />
+                  <Label layoutX="605.0" layoutY="65.0" text="VIA" />
+                  <Label layoutX="644.0" layoutY="65.0" text="VIIA" />
+                  <Label layoutX="689.0" layoutY="65.0" text="ZERO" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="110.0" prefWidth="660.0">
+               <children>
+                  <TextField fx:id="srch" alignment="CENTER" layoutX="11.0" prefHeight="40.0" prefWidth="245.0" promptText="Enter the Element to be search" />
+                  <Button fx:id="b2" layoutX="102.0" layoutY="59.0" mnemonicParsing="false" onAction="#src" text="Search" />
+               </children>
+            </AnchorPane>
+            <Label prefHeight="86.0" prefWidth="950.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children></HBox>
+      <AnchorPane prefHeight="481.0" prefWidth="1000.0">
+         <children>
+            <Button layoutY="2.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #40E0D0;" text="H" textFill="#060606" />
+            <Button layoutX="680.0" layoutY="2.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #87CEEB;" text="He" />
+            <Button layoutY="42.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #98FB98;" text="Li" />
+            <Button layoutX="40.0" layoutY="42.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFFFE0;" text="Be" />
+            <Button layoutX="480.0" layoutY="42.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #BC8F8F;" text="B" />
+            <Button layoutX="560.0" layoutY="82.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #40E0D0;" text="P" />
+            <Button layoutX="680.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #87CEEB;" text="Kr" />
+            <Button layoutX="680.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #87CEEB;" text="Xe" />
+            <Button layoutX="680.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #87CEEB;" text="Rn" />
+            <Button layoutX="680.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #87CEEB;" text="Og">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="520.0" layoutY="42.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #40E0D0;" text="C" />
+            <Button layoutX="560.0" layoutY="42.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #40E0D0;" text="N" />
+            <Button layoutX="600.0" layoutY="42.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #40E0D0;" text="O" />
+            <Button layoutX="640.0" layoutY="42.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #DDA0DD;" text="F" />
+            <Button layoutX="680.0" layoutY="42.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #87CEEB;" text="Ne" />
+            <Button layoutX="600.0" layoutY="82.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #40E0D0;" text="S" />
+            <Button layoutX="640.0" layoutY="82.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #DDA0DD;" text="Cl" />
+            <Button layoutX="680.0" layoutY="82.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #87CEEB;" text="Ar" />
+            <Button layoutY="82.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #98FB98;" text="Na" />
+            <Button layoutX="40.0" layoutY="82.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFFFE0;" text="Mg">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #98FB98;" text="K" />
+            <Button layoutX="40.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFFFE0;" text="Ca" />
+            <Button layoutX="80.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Sc" />
+            <Button layoutX="120.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Ti" />
+            <Button layoutX="160.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="V" />
+            <Button layoutX="200.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Cr" />
+            <Button layoutX="240.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Mn">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="280.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Fe" />
+            <Button layoutX="320.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Co" />
+            <Button layoutX="360.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Ni" />
+            <Button layoutX="400.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Cu" />
+            <Button layoutX="440.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Zn" />
+            <Button layoutX="480.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: DAA520;" text="Ga" />
+            <Button layoutX="520.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #BC8F8F;" text="Ge" />
+            <Button layoutX="560.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #BC8F8F;" text="As" />
+            <Button layoutX="600.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #40E0D0;" text="Se" />
+            <Button layoutX="640.0" layoutY="122.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #DDA0DD;" text="Br" />
+            <Button layoutX="520.0" layoutY="82.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #BC8F8F;" text="Si" />
+            <Button layoutX="480.0" layoutY="82.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: DAA520;" text="Al" />
+            <Button layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #98FB98;" text="Rb" />
+            <Button layoutX="40.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFFFE0;" text="Sr" />
+            <Button layoutX="80.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Y" />
+            <Button layoutX="120.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Zr" />
+            <Button layoutX="160.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Nb">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="200.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Mo">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="240.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Tc" />
+            <Button layoutX="280.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Ru" />
+            <Button layoutX="320.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Rh" />
+            <Button layoutX="360.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Pd" />
+            <Button layoutX="400.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Ag" />
+            <Button layoutX="440.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Cd" />
+            <Button layoutX="480.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: DAA520;" text="In" />
+            <Button layoutX="520.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: DAA520;" text="Sn" />
+            <Button layoutX="560.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #BC8F8F;" text="Sb" />
+            <Button layoutX="600.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #BC8F8F;" text="Te" />
+            <Button layoutX="640.0" layoutY="162.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #DDA0DD;" text="I" />
+            <Button layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #98FB98;" text="Cs" />
+            <Button layoutX="40.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFFFE0;" text="Ba" />
+            <Button layoutX="80.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Lnth">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="120.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Hf" />
+            <Button layoutX="160.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Ta" />
+            <Button layoutX="200.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="W" />
+            <Button layoutX="240.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Re" />
+            <Button layoutX="280.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Os" />
+            <Button layoutX="320.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Ir" />
+            <Button layoutX="360.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Pt" />
+            <Button layoutX="400.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Au" />
+            <Button layoutX="440.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Hg">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="480.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: DAA520;" text="TI" />
+            <Button layoutX="520.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: DAA520;" text="Pb" />
+            <Button layoutX="560.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: DAA520;" text="Bi" />
+            <Button layoutX="600.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: DAA520;" text="Po" />
+            <Button layoutX="640.0" layoutY="201.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #DDA0DD;" text="At" />
+            <Button layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #98FB98;" text="Fr" />
+            <Button layoutX="40.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFFFE0;" text="Ra" />
+            <Button layoutX="80.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Act">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="120.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Rf" />
+            <Button layoutX="160.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Db">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="200.0" layoutY="241.0" maxWidth="40.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Sg" />
+            <Button layoutX="240.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Bh" />
+            <Button layoutX="280.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Hs" />
+            <Button layoutX="320.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFA500;" text="Mt">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="360.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFA500;" text="Ds" />
+            <Button layoutX="400.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFA500;" text="Rg" />
+            <Button layoutX="440.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF7F50;" text="Cn" />
+            <Button layoutX="480.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFA500;" text="Nh">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="520.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFA500;" text="Fl" />
+            <Button layoutX="560.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFA500;" text="Mc">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="600.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFA500;" text="Lv" />
+            <Button layoutX="640.0" layoutY="241.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #DDA0DD;" text="Ts" />
+            <Button layoutX="120.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="La" />
+            <Button layoutX="160.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Ce" />
+            <Button layoutX="200.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Pr" />
+            <Button layoutX="240.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Nd">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="280.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Pm">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="360.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Eu" />
+            <Button layoutX="320.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Sm">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="400.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Gd" />
+            <Button layoutX="440.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Tb" />
+            <Button layoutX="480.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Dy" />
+            <Button layoutX="520.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Ho">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="560.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Er" />
+            <Button layoutX="600.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Tm">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="640.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Yb" />
+            <Button layoutX="680.0" layoutY="329.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: pink;" text="Lu" />
+            <Button layoutX="120.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Ac" />
+            <Button layoutX="160.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Th" />
+            <Button layoutX="200.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Pa" />
+            <Button layoutX="240.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="U" />
+            <Button layoutX="280.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Np">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="320.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Pu" />
+            <Button layoutX="360.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Am">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="400.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Cm">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="440.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Bk" />
+            <Button layoutX="480.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Cf" />
+            <Button layoutX="520.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Es" />
+            <Button layoutX="560.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Fm">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="600.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Md">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="640.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="No">
+               <font>
+                  <Font size="11.0" />
+               </font></Button>
+            <Button layoutX="680.0" layoutY="369.0" mnemonicParsing="false" onAction="#show" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #9ACD32;" text="Lr" />
+            <Label contentDisplay="CENTER" graphicTextGap="6.0" layoutX="20.0" layoutY="329.0" prefHeight="40.0" prefWidth="80.0" text="Lanthanides" textAlignment="RIGHT" underline="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="369.0" prefHeight="40.0" prefWidth="80.0" text="Actinide:--" underline="true">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="msg" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="720.0" layoutY="21.0" prefHeight="282.0" prefWidth="238.0" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label layoutX="726.0" layoutY="268.0" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #98FB98;" text="Alkali Metal">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="721.0" layoutY="294.0" prefHeight="26.0" prefWidth="112.0" style="-fx-background-color: #FFFFE0;" text="Alkali Earth Metal">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="876.0" layoutY="325.0" prefHeight="26.0" prefWidth="69.0" style="-fx-background-color: pink;" text="Lanthanides">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="884.0" layoutY="268.0" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: #9ACD32;" text="Actinides">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="730.0" layoutY="344.0" prefHeight="26.0" prefWidth="101.0" style="-fx-background-color: #FF7F50;" text="Transition Metal">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="877.0" layoutY="383.0" prefHeight="26.0" prefWidth="121.0" style="-fx-background-color: DAA520;" text="Post Transition Metal">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="726.0" layoutY="320.0" prefHeight="18.0" prefWidth="60.0" style="-fx-background-color: #BC8F8F;" text="Metalloids">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="876.0" layoutY="357.0" prefHeight="26.0" prefWidth="99.0" style="-fx-background-color: #40E0D0;" text="Other non Metals">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="729.0" layoutY="376.0" prefHeight="26.0" prefWidth="54.0" style="-fx-background-color: #DDA0DD;" text="Halogens">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="881.0" layoutY="294.0" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: #87CEEB;" text="Nobel Metals">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="730.0" layoutY="409.0" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #FFA500;" text="Unknown">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="603.0" layoutY="450.0" text="BY:-ADARSH PADHI" textFill="#0d0961">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="839.0" layoutY="450.0" text=" © CODEX" textFill="#6737c4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
